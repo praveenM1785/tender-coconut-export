@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar, footer {
+    background-color: #1c1c1c;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+}
+
+/* Home Section */
+#Home {
+    height: 100vh;
+    background: url('https://i.pinimg.com/originals/c6/15/90/c6159057d2dccb6d83f5a0821ae25fd8.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+/* Card Styling */
+.card {
+    background-color: #222;
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Images */
+img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#Transport img, #Delivery img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+form input, form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+form button {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+form button:hover {
+    background-color: #ffaa00;
+}
